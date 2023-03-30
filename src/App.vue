@@ -7,10 +7,16 @@
 <script>
 export default {
   name: 'App',
-  components: {
-  }
+
 }
 </script>
 
 <style>
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(248 250 253);
+}
 </style>

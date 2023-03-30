@@ -1,7 +1,6 @@
 <template>
-  <!-- 主页管理 -->
+  <!-- statistic -->
   <div>
-    dashboard1111
   </div>
 </template>
 

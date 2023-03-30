@@ -1,7 +1,6 @@
 <template>
-  <!-- 主页管理 -->
+  <!-- 人员列表 -->
   <div>
-    dashboard1111
   </div>
 </template>
 

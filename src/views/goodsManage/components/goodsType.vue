@@ -1,7 +1,6 @@
 <template>
-  <!-- 主页管理 -->
+  <!-- 商品类型 -->
   <div>
-    dashboard1111
   </div>
 </template>
 

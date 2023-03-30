@@ -1,10 +1,12 @@
 <template>
+  <!-- 区域管理 -->
   <div>
-    这是主页main
+
   </div>
 </template>
 
 <script>
+
 </script>
 
 <style>
