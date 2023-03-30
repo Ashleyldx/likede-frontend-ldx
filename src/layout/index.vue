@@ -113,7 +113,6 @@
 export default {
   data() {
       return {
-        activeIndex: '1',
         activeIndex2: '1'
       };
     },
@@ -134,7 +133,7 @@ export default {
 <style>
   .el-header, .el-footer {
     text-align: center;
-    line-height: 60px;
+    line-height: 30px;
   }
   
   .el-aside {

@@ -1,14 +1,27 @@
 // 该模块路由规则
 import Layout from '@/layout'
 export default {
-  path: '/serviceManage', // 路径
-  name: 'serviceManage', 
+  path: '/serviceManage', 
   component: Layout, 
-  children: [{
-    path: '', 
-    component: () => import('@/views/serviceManage'),
-    meta: {
-      title: '员工管理' // meta属性的里面的属性 随意定义 但是这里为什么要用title呢， 因为左侧导航会读取我们的路由里的meta里面的title作为显示菜单名称
-    }
-  }]
+  meta: { title: '设备管理' },
+  children: [
+    {
+      path: 'service', 
+      name:'service',
+      component: () => import('@/views/serviceManage/service'),
+      meta: { title: '设备管理' },
+    },
+    {
+      path: 'serviceStatus', 
+      name:'serviceStatus',
+      component: () => import('@/views/serviceManage/serviceStatus'),
+      meta: { title: '设备状态' },
+    },
+    {
+      path: 'serviceType', 
+      name:'serviceType',
+      component: () => import('@/views/serviceManage/serviceType'),
+      meta: { title: '设备类型管理' },
+    },
+  ]
 }

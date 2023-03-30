@@ -1,5 +1,5 @@
 <template>
-  <!-- 设备管理 -->
+  <!-- 商品类型 -->
   <div>
   </div>
 </template>

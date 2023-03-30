@@ -51,7 +51,7 @@ vue2+vue-router+element-ui+vuex
 
 商品管理 goodsManage
 - 商品类型 goodsType
-- 商品管理 goodsManage
+- 商品管理 goodsManagement
 
 策略管理 categoryManage
 订单管理 orderManage

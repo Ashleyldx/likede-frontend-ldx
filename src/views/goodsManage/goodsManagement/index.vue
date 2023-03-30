@@ -1,10 +1,11 @@
 <template>
-  <!-- 商品类型 -->
+  <!-- 商品管理 -->
   <div>
   </div>
 </template>
 
 <script>
+
 </script>
 
 <style>
