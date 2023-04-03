@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app">这是个帝可得项目
     <router-view></router-view>
   </div>
 </template>
@@ -17,6 +17,6 @@ body,
 #app {
   width: 100%;
   height: 100%;
-  background-color: rgb(248 250 253);
+  background-color: rgb(248,250,253);
 }
 </style>

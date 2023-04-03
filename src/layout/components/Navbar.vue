@@ -76,7 +76,7 @@ export default {
     -webkit-tap-highlight-color: transparent;
 
     &:hover {
-      background: rgba(0, 0, 0, 0.025);
+      background: rgba(0,0,0,0.025);
     }
   }
 
@@ -89,7 +89,7 @@ export default {
     width: 240px;
     height: 100%;
     margin-right: 24px;
-    color: rgb(255 255 255);
+    color: rgb(255,255,255);
     &:focus {
       outline: none;
     }

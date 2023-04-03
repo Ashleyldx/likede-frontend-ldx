@@ -4,30 +4,6 @@ import asyncRouter from './modules'
 Vue.use(Router)
 import layout from '@/layout'
 
-// 引入多个模块的规则
-import categoryManage from './modules/categoryManage'
-import countStatus from './modules/countStatus'
-import exhibition from './modules/exhibition'
-import goodsManage from './modules/goodsManage'
-import orderManage from './modules/orderManage'
-import peopleManage from './modules/peopleManage'
-import pointManage from './modules/pointManage'
-import serviceManage from './modules/serviceManage'
-import taskManage from './modules/taskManage'
-
-// 动态路由
-export const asyncRoutes = [
-  categoryManage,
-  countStatus,
-  exhibition,
-  goodsManage,
-  orderManage,
-  peopleManage,
-  pointManage,
-  serviceManage,
-  taskManage
-]
-
 // 导出路由
 export const constantRoutes = [
   {
